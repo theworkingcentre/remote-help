@@ -39,7 +39,8 @@ to share their desktops with trusted helpers in a semi-secure way.
 - Set up corresponding Windows scripts. Allowing the helpers to use
   Windows should not be difficult. Allowing the customers to use
   Windows will require making new get-remote-help.sh scripts. 
-
+- Add GPL notices and include license text
+- Better error checking for missing dependencies
 
 Initial server setup
 --------------------
