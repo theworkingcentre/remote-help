@@ -93,4 +93,7 @@ apt-get install zenity sshpass x11vnc bash
 On helper machine
 -----------------
 
-Just make sure the setup-technician-remote-connection.sh script is available.
+Just make sure the following scripts are available in the same folder:
+
+- setup-technician-remote-connection.sh
+- remote-help.conf 
