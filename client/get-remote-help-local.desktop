@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Get Remote Help
+GenericName=Users Admin
+Comment=Allow a Computer Recycling helper to access your screen
+Icon=get-remote-help
+Exec=/usr/local/bin/get-remote-help.sh
+Terminal=false
+StartupNotify=false
+Categories=Network
+Keywords=RemoteAccess;Network

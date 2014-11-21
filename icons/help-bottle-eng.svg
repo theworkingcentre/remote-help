@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg15698"
+   sodipodi:docname="help-bottle-eng.svg"
+   sodipodi:modified="true"
+   viewBox="0 0 226.93 253.39"
+   sodipodi:version="0.32"
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   inkscape:export-filename="/home/linuxuser/icons/help-bottle-eng.png"
+   inkscape:export-xdpi="22.937149"
+   inkscape:export-ydpi="22.937149">
+  <defs
+     id="defs15700">
+    <linearGradient
+       id="linearGradient7948"
+       y2="93.202"
+       gradientUnits="userSpaceOnUse"
+       x2="162.45"
+       gradientTransform="translate(2,-2)"
+       y1="263.92"
+       x1="228.16"
+       inkscape:collect="always">
+      <stop
+         id="stop10281"
+         style="stop-color:#7acd70"
+         offset="0" />
+      <stop
+         id="stop10283"
+         style="stop-color:#1bb7d7;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient7950"
+       y2="-90.432"
+       gradientUnits="userSpaceOnUse"
+       x2="1087.5"
+       gradientTransform="matrix(5.9867 5.074 -5.074 5.9867 -6739.2 -4714.7)"
+       y1="-101.61"
+       x1="1067"
+       inkscape:collect="always">
+      <stop
+         id="stop10303"
+         style="stop-color:#184d7d"
+         offset="0" />
+      <stop
+         id="stop10305"
+         style="stop-color:#66d9ff"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     inkscape:window-y="25"
+     pagecolor="#ffffff"
+     inkscape:window-height="954"
+     inkscape:window-maximized="1"
+     inkscape:zoom="1.3572243"
+     inkscape:window-x="0"
+     showgrid="false"
+     borderopacity="1.0"
+     inkscape:current-layer="g7969"
+     inkscape:cx="81.630638"
+     inkscape:cy="113.53248"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1400"
+     inkscape:pageopacity="0.0"
+     inkscape:document-units="px" />
+  <g
+     id="layer1"
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     transform="translate(-55.42 -43.555)">
+    <g
+       id="g2177">
+      <g
+         id="g7969"
+         inkscape:export-ydpi="38"
+         inkscape:export-xdpi="38"
+         inkscape:export-filename="/home/lila/posgrado/prodmult2/diapos/botella.png">
+        <path
+           id="path7881"
+           d="m60.971 241.6c12.618 2.1143 24.645 7.6525 34.455 15.865 9.8097 8.2129 17.376 19.079 21.676 31.129 0.23501 0.65857 0.46047 1.3206 0.67627 1.9857"
+           inkscape:original-d="m 60.970787,241.59642 c 0,0 37.195372,3.30944 56.131203,46.9941 18.93583,43.68466 0.67627,1.98566 0.67627,1.98566"
+           style="stroke-linejoin:round;stroke:#00a7a2;stroke-linecap:round;stroke-width:4.7753;fill:none"
+           inkscape:path-effect="#path-effect7883" />
+        <path
+           id="path10351"
+           sodipodi:nodetypes="ccccc"
+           style="fill-rule:evenodd;fill:#d7bf1b"
+           d="m257.6 43.832-17.121 30.678 11.311 11.708 29.757-22.09c-5.03-7.505-9.72-15.093-23.95-20.296z" />
+        <path
+           id="path10353"
+           sodipodi:nodetypes="ccssccssccc"
+           style="stroke-linejoin:round;fill-rule:evenodd;stroke:url(#linearGradient7950);stroke-linecap:round;stroke-width:4.7086;fill:url(#linearGradient7948)"
+           d="m59.775 241.85c-0.03448 0.0444 44.11-119.06 87.441-133.77 14.75 12.501 63.104-14.248 86.039-32.973 1.9902-1.6249 5.0511-3.0413 6.8638-5.5564 2.7343-3.794 3.9688-8.7481 5.0597-10.035l23.947 20.296c-1.2718 1.5005-5.1187 1.9567-8.4794 3.6932-3.0938 1.5987-4.6844 4.8344-5.4801 6.1773-14.51 24.484-32.09 78.284-17.2 90.904-7.41 45.16-118.33 112.01-118.33 112.01-27.851-10-46.947-27.66-59.865-50.74z" />
+        <path
+           id="path10355"
+           sodipodi:nodetypes="ccccc"
+           style="fill-rule:evenodd;fill:#ffe6d5"
+           d="m163.51 132.71-95.148 100.3 51.545 53.967 104.54-150.32-60.942-3.9496z" />
+        <path
+           id="path7885"
+           sodipodi:rx="1.5532157"
+           sodipodi:ry="1.5532157"
+           style="opacity:.71121;color:#000000;fill:#808000"
+           sodipodi:type="arc"
+           d="m 202.8056,16.19532 c 0,0.857817 -0.6954,1.553216 -1.55322,1.553216 -0.85782,0 -1.55322,-0.695399 -1.55322,-1.553216 0,-0.857817 0.6954,-1.553216 1.55322,-1.553216 0.85782,0 1.55322,0.695399 1.55322,1.553216 z"
+           transform="translate(57.42 41.555)"
+           sodipodi:cy="16.19532"
+           sodipodi:cx="201.25238" />
+        <path
+           id="path7887"
+           sodipodi:rx="1.5532157"
+           sodipodi:ry="1.5532157"
+           style="opacity:.71121;color:#000000;fill:#808000"
+           sodipodi:type="arc"
+           d="m 202.8056,16.19532 c 0,0.857817 -0.6954,1.553216 -1.55322,1.553216 -0.85782,0 -1.55322,-0.695399 -1.55322,-1.553216 0,-0.857817 0.6954,-1.553216 1.55322,-1.553216 0.85782,0 1.55322,0.695399 1.55322,1.553216 z"
+           transform="matrix(1.6429 0 0 1.3571 -69.626 41.873)"
+           sodipodi:cy="16.19532"
+           sodipodi:cx="201.25238" />
+        <path
+           id="path7889"
+           sodipodi:rx="1.5532157"
+           sodipodi:ry="1.5532157"
+           style="opacity:.71121;color:#000000;fill:#808000"
+           sodipodi:type="arc"
+           d="m 202.8056,16.19532 c 0,0.857817 -0.6954,1.553216 -1.55322,1.553216 -0.85782,0 -1.55322,-0.695399 -1.55322,-1.553216 0,-0.857817 0.6954,-1.553216 1.55322,-1.553216 0.85782,0 1.55322,0.695399 1.55322,1.553216 z"
+           transform="matrix(1.0714 0 0 1.3571 38.423 55.334)"
+           sodipodi:cy="16.19532"
+           sodipodi:cx="201.25238" />
+        <path
+           id="path7901"
+           sodipodi:nodetypes="ccccc"
+           style="fill:#bea219"
+           d="m258.02 44.998s4.6996 18.652 23.39 18.916c-2.862-10.406-10.631-17.16-23.815-19.884l0.42481 0.96837z" />
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b70000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+           x="-126.35332"
+           y="253.41066"
+           id="text3828"
+           sodipodi:linespacing="125%"
+           transform="matrix(0.64556875,-0.76370216,0.76370216,0.64556875,0,0)"><tspan
+             sodipodi:role="line"
+             id="tspan3830"
+             x="-126.35332"
+             y="253.41066"
+             style="stroke-width:1">Help!!</tspan></text>
+      </g>
+    </g>
+  </g>
+  <metadata
+     id="metadata3826">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title></dc:title>
+        <dc:date>2010-07-31T00:21:34</dc:date>
+        <dc:description>help message in a bottle</dc:description>
+        <dc:source>https://openclipart.org/detail/75577/mensaje-en-una-botella-by-nomade</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>nomade</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>ayuda</rdf:li>
+            <rdf:li>botella</rdf:li>
+            <rdf:li>bottle</rdf:li>
+            <rdf:li>help</rdf:li>
+            <rdf:li>mensaje</rdf:li>
+            <rdf:li>message</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

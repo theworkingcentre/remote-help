@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# Configuration file for all scripts. 
+
+SSH_HOST="sshtunnel.contoso.com"
+SSH_PORT="22202"
+VNC_BASE="29700"
+
+DEBUG_LEVEL="1"
+
+VNC_LOCALPORT="5900"
+
+CUSTOMER_PREFIX="customer"
+HELPER_PREFIX="helper"
+
+# This means accounts customer01 through customer05 (and the
+# corresponding helper accounts) exist.
+LAST_ACCOUNT="05"
+
+LOGBASE=`basename $0 .sh`
+LOGFILE=`mktemp /tmp/$LOGBASE-$(date +"%F-%H:%M")-XXX.log`
+
+# Used only in technician script
+# This had better support the -e switch for executing a command
+XTERM=x-terminal-emulator
+
+# used only by unlock script
+# How long to unexpire the account, in seconds. (172800 = 48 hours)
+ACCOUNT_DURATION="172800"
+
+
+
