@@ -42,6 +42,7 @@ to share their desktops with trusted helpers in a semi-secure way.
   Windows will require making new get-remote-help.sh scripts. 
 - Better error checking for missing dependencies
 - Better input validation
+- Allow more than 100 accounts (00-99?) 
 
 Initial server setup
 --------------------
