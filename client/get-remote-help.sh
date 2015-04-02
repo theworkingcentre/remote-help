@@ -1,9 +1,23 @@
 #!/bin/bash
 
-# Connect to remote help (vnc) server via an SSH tunnel, attempting to
-# keep things easy for the end user.
+#  Connect to remote help (vnc) server via an SSH tunnel, attempting to
+#  keep things easy for the end user.
+#  Copyright (C) 2014 Paul "Worthless" Nijjar
 
-# Paul "Worthless" Nijjar, 2014-09-02
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+
+#  You should have received a copy of the GNU General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
 
 # Depends: x11vnc, zenity, sshpass
 # Currently the VNC password is stored in a file, which is awful.
