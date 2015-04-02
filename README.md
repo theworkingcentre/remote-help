@@ -33,14 +33,15 @@ to share their desktops with trusted helpers in a semi-secure way.
   particular have to remember to enter the SSH password and VNC
   password in the correct sequence. This is a big pain. The solution
   is to use SSH keys for the helpers.
+- The helper script does not validate input of the account number.
 
 ### Future Work
 
 - Set up corresponding Windows scripts. Allowing the helpers to use
   Windows should not be difficult. Allowing the customers to use
   Windows will require making new get-remote-help.sh scripts. 
-- Add GPL notices and include license text
 - Better error checking for missing dependencies
+- Better input validation
 
 Initial server setup
 --------------------
