@@ -24,7 +24,7 @@
 
 # === Global Variables ====
 
-CONFFILE="/etc/remote-help/get-remote-help.conf"
+CONFFILE="/etc/remote-help/remote-help.conf"
 
 vnc_pid=""
 ssh_pid=""
