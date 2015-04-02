@@ -100,8 +100,8 @@ while [ "$keeptrying_ssh" = "0" ]
 do 
     
     sshpassphrase=`zenity --entry \
-      --text="Please get the access password from your helper 
-      and type it here. (It will be echoed in plaintext.)" \
+      --text="Please get the access password from your helper and
+      type it here. (You will see the password as you type it.)" \
       --title="Server Access Password" `
     retval_accessq=$?
 
