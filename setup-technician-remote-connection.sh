@@ -71,6 +71,9 @@ while [ "$have_account" != "y" ]
 do
     printf 'Enter the account to use (01-%s): ' "$LAST_ACCOUNT"
     read account_id
+
+    # I guess we should check whether this is in the right
+    # range, huh?
     printf 'You entered account "%s". Is this correct? (y/n): ' "$account_id"
     read have_account
 done
