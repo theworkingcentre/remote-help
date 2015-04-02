@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Lead a helper to initiate a remote VNC session. 
-# Requires: tightvnc
+# Requires: tightvnc, pkill, x-terminal-emulator
 
 # Paul "Worthless" Nijjar, 2014-09-03
 
