@@ -1,8 +1,14 @@
-#!/bin/bash
-
 # Configuration file for all scripts. 
+# This is a bash script that can be sourced, because I am naive.
 
-SSH_HOST="sshtunnel.contoso.com"
+# You can make these the same if both helpers and customers can 
+# see the same URL, but in our situation customers see an internet 
+# facing URL and helpers use an internal network host. Either can be 
+# specified as hostnames or IP addresses.
+
+SSH_HOST_CUSTOMER="sshtunnel.contoso.com"
+SSH_HOST_HELPER="192.168.1.254"
+
 SSH_PORT="22202"
 VNC_BASE="29700"
 
@@ -28,5 +34,6 @@ XTERM=x-terminal-emulator
 # How long to unexpire the account, in seconds. (172800 = 48 hours)
 ACCOUNT_DURATION="172800"
 
-
+# Be nice and return success
+return 0
 

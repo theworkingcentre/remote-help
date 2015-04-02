@@ -39,7 +39,7 @@ cleanup ()
 
     if [[ -n $ssh_pid ]]
     then
-        pkill --signal 9 -f "ssh -f .+ ${helper_id}@${SSH_HOST}"
+        pkill --signal 9 -f "ssh -f .+ ${helper_id}@${SSH_HOST_HELPER}"
 	retval=$?
 
 	decho "Ran pkill with exit code $retval"
@@ -75,13 +75,13 @@ do
     read have_account
 done
 
-export helper_id="${HELPER_BASE}${account_id}"
+export helper_id="${HELPER_PREFIX}${account_id}"
 
 decho "Volunteer is $helper_id"
 
 decho 'Launching SSH session. Follow instructions!'
 
-$XTERM -e "ssh -p $SSH_PORT ${helper_id}@${SSH_HOST}" &
+$XTERM -e "ssh -p $SSH_PORT ${helper_id}@${SSH_HOST_HELPER}" &
 
 
 # printf '
@@ -91,7 +91,7 @@ $XTERM -e "ssh -p $SSH_PORT ${helper_id}@${SSH_HOST}" &
 # ssh -p %s %s@%s
 # =====================
 # Log in and follow the instructions. 
-# ' "$SSH_PORT" "$helper_id" "$SSH_HOST"
+# ' "$SSH_PORT" "$helper_id" "$SSH_HOST_HELPER"
 
 open_vnc="nope"
 
@@ -117,7 +117,7 @@ If the screen gets garbled during the connection, press the left
 remote_tunnelport=$(( $account_id + $VNC_BASE ))
 
 
-ssh -f -p $SSH_PORT -N -L ${VNC_LOCALPORT}:localhost:${remote_tunnelport} ${helper_id}@${SSH_HOST}
+ssh -f -p $SSH_PORT -N -L ${VNC_LOCALPORT}:localhost:${remote_tunnelport} ${helper_id}@${SSH_HOST_HELPER}
 retval=$?
 ssh_pid=$!
 

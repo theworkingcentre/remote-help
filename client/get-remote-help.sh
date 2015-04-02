@@ -123,7 +123,7 @@ do
             # Try password and open SSH connection.
             sshpass -e ssh -t -C -N -oStrictHostKeyChecking=no \
               -R ${VNC_PORT}:localhost:5900 \
-              -p ${SSH_PORT} ${SSH_USER}@${SSH_HOST} &
+              -p ${SSH_PORT} ${SSH_USER}@${SSH_HOST_CUSTOMER} &
             retval=$?
             ssh_pid=$!
 
