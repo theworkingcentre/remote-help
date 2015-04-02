@@ -15,7 +15,7 @@
 CONFFILE=/etc/remote-help/remote-help.conf
 
 # Can I do this here?
-source $CONFFILE || cleanup 1
+. $CONFFILE || cleanup 1
 
 # === Procedures
 
