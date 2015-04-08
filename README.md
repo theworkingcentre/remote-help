@@ -23,6 +23,35 @@ to share their desktops with trusted helpers in a semi-secure way.
 - People with access to the helper accounts can be trusted, because
   they get passwordless sudo access to usermod and chpasswd
 
+### Overview
+
+- The customer initiates a connection from his or her desktop computer. 
+  This prompts the customer for a (numerical) password.
+- The technician SSHes into the SSH server. This unlocks a customer 
+  account and assigns a numerical password to this account.
+- The technician reads the numerical password to the customer.
+- The customer types in the numerical password, which creates an 
+  SSH tunnel to the SSH server. x11vnc tunnels through this SSH 
+  server, and sets a second numerical passcode to allow access
+  to the session.
+- The technician now makes a second connection to the SSH server to 
+  connect to the customer VNC session. The technician is first prompted
+  for the SSH account password, and then is prompted for the 
+  VNC password.
+- If the technician connects successfully, then the desktop is shared 
+  and usable by either user.
+- The customer has the ability to end the session at any time by 
+  pressing a big "Close Connection" button.
+- When the technician is done, he or she closes their first SSH session.
+  This locks the customer account again, so the customer cannot 
+  reconnect (without going through the process again). If for some 
+  reason the technician does not lock the account, then the account
+  should auto lock in two days.
+
+It should be apparent that having a VNC session alone is not sufficient 
+for this interaction to work. The technician has to interact with the 
+customer in some other way (presumably by phone, although I guess
+some chat client would work as well). 
 
 ### Weaknesses: 
 
