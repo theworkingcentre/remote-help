@@ -51,7 +51,7 @@ to share their desktops with trusted helpers in a semi-secure way.
 It should be apparent that having a VNC session alone is not sufficient 
 for this interaction to work. The technician has to interact with the 
 customer in some other way (presumably by phone, although I guess
-some chat client would work as well). 
+some chat software would work as well). 
 
 ### Weaknesses: 
 
@@ -76,7 +76,7 @@ some chat client would work as well).
 Initial server setup
 --------------------
 
-Assume 10.10.10.x is the LAN subnet where helpers live
+Assume 10.10.10.x is the LAN subnet where helpers live.
 
 Install the unlock-customer-account.sh script on the server
 - /usr/local/bin/unlock-customer-account.sh
@@ -96,7 +96,7 @@ In /etc/ssh/sshd_config:
 
     PermitTunnel yes
     AllowTcpForwarding yes
-    AllowUsers helpme??  volunteer??@10.10.10.*
+    AllowUsers customer??  helper??@10.10.10.*
     PermitRootLogin no
 
 
@@ -105,9 +105,9 @@ Adding more user accounts
 
 - Create helper account
 - Set shell to /usr/local/bin/unlock-customer-account.sh
-  usermod -s /usr/local/bin/unlock-customer-account.sh volunteer02
+  usermod -s /usr/local/bin/unlock-customer-account.sh helper02
 
-- Add corresponding helpme account
+- Add corresponding customer account
 - Set shell to /bin/false
 
 
