@@ -134,6 +134,8 @@ Just make sure the following scripts are available in the same folder:
 Credits
 -------
 
+- <http:/www.karlrunge.com/x11vnc/faq.html#faq-firewall-out>, which
+  documents the procedure I implemented. 
 - <https://openclipart.org/detail/3945/message-in-a-bottle> for the
   bottle icon 
 - Members of <http://kwlug.org> community for suggestions and insight
