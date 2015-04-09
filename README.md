@@ -127,6 +127,8 @@ apt-get install zenity sshpass x11vnc bash
 On helper machine
 -----------------
 
+apt-get install tightvnc
+
 Make sure the following scripts are available in the same folder:
 
 - setup-technician-remote-connection.sh
