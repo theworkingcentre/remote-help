@@ -6,21 +6,21 @@ to share their desktops with trusted helpers in a semi-secure way.
 
 ### Goals 
 
-- Minimize hassle for customers while protecting their security
-- Keep bandwidth use small, even at the expense of user experience
+- Minimize hassle for customers while protecting their security.
+- Keep bandwidth use small, even at the expense of user experience.
 - Require no port forwarding for either the customer or volunteer
   computers. Instead, use an SSH server on the Internet that both
   groups can log into. 
 - Lock down access to the SSH server by unlocking and relocking 
   customer accounts as required.
-- Use temporary passwords that are regenerated each session
+- Use temporary passwords that are regenerated each session.
 - Only allow access to customer machines if the customers explicitly
-  allow it (ie there should be no backdoors)
+  allow it (ie there should be no backdoors).
 
 
 ### Assumptions
 
-- People with access to the helper accounts can be trusted, because
+- People with access to the technician accounts can be trusted, because
   they get passwordless sudo access to usermod and chpasswd
 
 ### Overview
@@ -69,14 +69,14 @@ some chat software would work as well).
 - Set up corresponding Windows scripts. Allowing the helpers to use
   Windows should not be difficult. Allowing the customers to use
   Windows will require making new get-remote-help.sh scripts. 
-- Better error checking for missing dependencies
-- Better input validation
+- Better error checking for missing dependencies.
+- Better input validation.
 - Allow more than 100 accounts (00-99?) 
 
 Initial server setup
 --------------------
 
-Assume 10.10.10.x is the LAN subnet where helpers live.
+Assume 10.10.10.x is the LAN subnet where technician machines live.
 
 Install the unlock-customer-account.sh script on the server
 - /usr/local/bin/unlock-customer-account.sh
@@ -91,6 +91,8 @@ commands:
 In /etc/sudoers
 
     %unlock_accounts ALL = NOPASSWD: /usr/sbin/usermod /usr/sbin/chpasswd
+
+FIXME: what does `%unlock_accounts` look like?
 
 In /etc/ssh/sshd_config:
 
@@ -125,7 +127,9 @@ On client machines
 On helper machine
 -----------------
 
-Just make sure the following scripts are available in the same folder:
+apt-get install tightvnc
+
+Make sure the following scripts are available in the same folder:
 
 - setup-technician-remote-connection.sh
 - remote-help.conf 
@@ -134,6 +138,8 @@ Just make sure the following scripts are available in the same folder:
 Credits
 -------
 
+- <http:/www.karlrunge.com/x11vnc/faq.html#faq-firewall-out>, which
+  documents the procedure I implemented. 
 - <https://openclipart.org/detail/3945/message-in-a-bottle> for the
   bottle icon 
 - Members of <http://kwlug.org> community for suggestions and insight
