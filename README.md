@@ -116,12 +116,12 @@ Adding more user accounts
 On client machines
 ------------------
 
-apt-get install zenity sshpass x11vnc bash
+    apt-get install zenity sshpass x11vnc bash
 
-/usr/share/pixmaps/get-remote-help.png
-/usr/local/bin/get-remote-help.sh
-/etc/remote-help/remote-help.conf
-/usr/share/applications/get-remote-help-local.desktop
+- /usr/share/pixmaps/get-remote-help.png
+- /usr/local/bin/get-remote-help.sh
+- /etc/remote-help/remote-help.conf
+- /usr/share/applications/get-remote-help-local.desktop
 
 
 On helper machine
