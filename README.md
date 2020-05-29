@@ -71,7 +71,7 @@ some chat software would work as well).
   Windows will require making new get-remote-help.sh scripts. 
 - Better error checking for missing dependencies.
 - Better input validation.
-- Allow more than 100 accounts (00-99?) 
+- Allow more than 100 accounts (00-99?)
 
 Initial server setup
 --------------------
@@ -88,11 +88,15 @@ commands:
 - usermod
 - chpasswd
 
+Create a group for the helpers:
+
+    addgroup unlock_accounts
+    adduser helper01 unlock_accounts
+    adduser helper02 unlock_accounts
+
 In /etc/sudoers
 
-    %unlock_accounts ALL = NOPASSWD: /usr/sbin/usermod /usr/sbin/chpasswd
-
-FIXME: what does `%unlock_accounts` look like?
+    %unlock_accounts ALL = NOPASSWD: /usr/sbin/usermod, /usr/sbin/chpasswd
 
 In /etc/ssh/sshd_config:
 
